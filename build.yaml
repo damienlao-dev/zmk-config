@@ -1,6 +1,6 @@
 ---
 include:
-  - board: nice_nano_v2
+  - board: nicenano
     shield: cradio_left
-  - board: nice_nano_v2
+  - board: nicenano
     shield: cradio_right
