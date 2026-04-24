@@ -1,3 +1,19 @@
 / {
-    #include "cradio_right.dtsi"
+    chosen {
+        zmk,keyboard = &cradio_right;
+    };
+    cradio_right: cradio_right {
+        compatible = "zmk,keyboard";
+        label = "CRADIO_RIGHT";
+        keyscan = <&kscan0>;
+        behaviors {
+            compatible = "zmk,behavior-list";
+        };
+        macros {
+            compatible = "zmk,behavior-macro-list";
+        };
+        combos {
+            compatible = "zmk,combos";
+        };
+    };
 };
