@@ -1,1 +1,3 @@
-#include "cradio_left.overlay"
+/ {
+    #include "cradio_left.dtsi"
+};
